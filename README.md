@@ -21,9 +21,9 @@ CSS keretrendszer használata nem megendegett!
 
 - [] Ha a menü item fölé visszük a kurzort, fehér lesz a betűszín.
 - [] Nem új oldalra vezető linkek, hanem az adott oldalon belüli részhez animálódva le/felgördül az oldal.
--- A Download a Discover what all the buzz is about! részhet
--- A Feature a Unlimited Features Unlimited Fun részhez
--- A Contact a We love new friends! részhez.
+- - A Download a Discover what all the buzz is about! részhet
+- - A Feature a Unlimited Features Unlimited Fun részhez
+- - A Contact a We love new friends! részhez.
 - [] Ez az gördülés animáció 300ms időtartamú legyen, ez az az idő mialatt felülre kerül az adott tartalmi résznek.
 - [] A felső menü fixen, mindig látható felül. Ha nem az oldal tetején vagyunk, akkor legyen a menü háttérszíne fehér, a betűk szürkék. (desktop-menu.pdf szerint)
 
