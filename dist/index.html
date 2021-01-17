@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SCSS Sitebuild project</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
     <script src="https://kit.fontawesome.com/4b2f547122.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -71,10 +73,26 @@
                     <!-- <img src="./assets/img/demo-screen-1.jpg" alt="demoscreen"> -->
                 </div>
                 <div class="feature-container col-md-6 col-12 d-flex">
-                    <div class="feature">phone</div>
-                    <div class="feature">photo</div>
-                    <div class="feature">gift</div>
-                    <div class="feature">lock</div>
+                    <div class="feature">
+                        <i class="sli icon-screen-smartphone"></i>
+                        <h3 class="text-capitalize">Device mockups</h3>
+                        <div>Ready to use HTML/CSS device mockups, no Photoshop required!</div>
+                    </div>
+                    <div class="feature">
+                        <i class="sli icon-camera"></i>
+                        <h3 class="text-capitalize">Flexible use</h3>
+                        <div>Put an image,video, animation, or anything else in the screen!</div>
+                    </div>
+                    <div class="feature">
+                        <i class="sli icon-present"></i>
+                        <h3 class="text-capitalize">Free to use</h3>
+                        <div>As always, this theme is free to download and use for any purpose!</div>
+                    </div>
+                    <div class="feature">
+                        <i class="sli icon-lock-open"></i>
+                        <h3 class="text-capitalize">Open source</h3>
+                        <div>Since this theme is MIT licensed, you can use it commercially!</div>
+                    </div>
                 </div>
             </section>
         </article>
@@ -85,16 +103,28 @@
         <article class="friends">
             <h1 class="col-12 text-center">We &hearts; new friends!</h1>
             <div class="social">
-                <div class="link-to">
-                    Twitter
-                </div>
-                <div class="link-to">
-                    Facebook
-                </div>
-                <div class="link-to">
-                    Google+
-                </div>
+                <a href="https://twitter.com/" target="blank" class="" data-toggle="tooltip" data-placement="top"
+                    title="Twitter">
+                    <i class="fab fa-twitter fa-4x" aria-hidden="true"></i>
+                    <span class="sr-only">Link a cég Twitter oldalára</span>
+                </a>
+                <a href="https://www.facebook.com/" target="blank" class="" data-toggle="tooltip" data-placement="top"
+                    title="Facebook">
+                    <i class="fab fa-facebook fa-4x" aria-hidden="true"></i>
+                    <span class="sr-only">Link a cég Facebook oldalára</span>
+                </a>
+                <a href="https://www.google.com/" target="blank" class="" data-toggle="tooltip" data-placement="top"
+                    title="Google">
+                    <i class="fab fa-google-plus fa-4x" aria-hidden="true"></i>
+                    <span class="sr-only">Link a cég Google oldalára</span>
+                </a>
             </div>
+            <!-- régi -->
+            <!-- <div class="d-flex justify-content-center mb-5">
+                <nav class="nav justify-content-center justify-content-md-start">
+
+                </nav>
+            </div> -->
         </article>
         <footer class="footer text-center">
             <p class="col-12">&COPY; Your Website 2018. All rights reserved.</p>

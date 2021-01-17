@@ -13,7 +13,7 @@ CSS keretrendszer használata nem megendegett!
 - [] Bekezdések: Muli, Helvetica, Arial, sans-serif
 - [] A Footer egységesen: Muli, Helvetica, Arial, sans-serif
 
-- [] A használni kívánt színeket mérd ki! Pontosan meg kell felelni a design színeinek! (color picker-t használd) A margin, padding értékeknek, betű méreteknek, sormagasságoknak stb. nem kell pixelpontosnak lennie de szemre lőjük be, ne térjen el nagyon a designon lévőtől! A feladatok leírását a desktop.pdf fájl tartalmazza megjegyzések formájában, de itt is olvashatod:
+- [x] A használni kívánt színeket mérd ki! Pontosan meg kell felelni a design színeinek! (color picker-t használd) A margin, padding értékeknek, betű méreteknek, sormagasságoknak stb. nem kell pixelpontosnak lennie de szemre lőjük be, ne térjen el nagyon a designon lévőtől! A feladatok leírását a desktop.pdf fájl tartalmazza megjegyzések formájában, de itt is olvashatod:
 
 - [] Start Bootstrap szöveg (a bal felső sarokban): - Ha fölé visszük a kurzort, fehér lesz a betűszín.
 
@@ -33,7 +33,7 @@ CSS keretrendszer használata nem megendegett!
 - [] Ha fölé visszük a kurzort sárga lesz a háttérszíne és a border színe is (#fdcc52) Ez 300ms alatt történjen meg, ne rögtön. (natív css-el old meg ha tudod)
 
 
-#### Felső rózsaszn-lila rész:
+##### Felső rózsaszn-lila rész:
 
 - [] Ez egy linear gradient plusz egy kép repeatelve.
 - [] A kép a bg-pattern.png
@@ -58,8 +58,8 @@ A Social ikonoknál:
 
 - [] A háttérszín 90%-os alpha értékkel rendelkezik
 - [] Ha fölé viszem a kurzort akkor lesz 100% alpha érték
-- [] Használj Fontawesome ikonokat
-- [] Az ikonok linkek az adott social pagere
+- [x] Használj Fontawesome ikonokat
+- [x] Az ikonok linkek az adott social pagere
 - [] Mindegyik ikonnak legyen tooltippje, tehát ha fölé viszem a kurzort megjelenik az adott social page neve. (facebook, twitter, google plus)
 
 #### Footer
