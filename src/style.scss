@@ -1,21 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
-
-/* - to see the difference, dev only */
-@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
-
-:root {
-    --gradient-from: rgb(218, 36, 49);
-    --gradient-to: rgb(122, 67, 151);
-    --project-yellow: rgb(251, 204, 82);
-    --project-yellow-op90: rgba(251, 204, 82, .9);
-    --project-yellow-op100: rgba(251, 204, 82, 1);
-    --heart: rgb(221, 76, 57);
-    --heart-opaque: rgba(221, 76, 57, .9);
-    --project-grey: rgb(150, 150, 150);
-    --twitter: rgb(29, 161, 242);
-    --twitter-opaque: rgba(29, 161, 242, .9);
-    --facebook: rgb(1, 101, 226);
-    --facebook-opaque: rgba(1, 101, 226, .9);
-}
+@import 'mine.scss';
+@import './imported-scss/hamburger-menu/src/scss/style.scss';
+@import './imported-scss/grid-system/src/scss/grid.scss';
+@import './imported-scss/color-palette/src/scss/style.scss';
+@import './imported-scss/buttons/src/scss/style.scss';

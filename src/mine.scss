@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+/* - to see the difference, dev only */
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+
+:root {
+    --gradient-from: rgb(218, 36, 49);
+    --gradient-to: rgb(122, 67, 151);
+    --project-yellow: rgb(251, 204, 82);
+    --project-yellow-op90: rgba(251, 204, 82, .9);
+    --project-yellow-op100: rgba(251, 204, 82, 1);
+    --heart: rgb(221, 76, 57);
+    --heart-opaque: rgba(221, 76, 57, .9);
+    --project-grey: rgb(150, 150, 150);
+    --twitter: rgb(29, 161, 242);
+    --twitter-opaque: rgba(29, 161, 242, .9);
+    --facebook: rgb(1, 101, 226);
+    --facebook-opaque: rgba(1, 101, 226, .9);
+}
+
+headers,
+menus {
+    font-family: 'Catamaran', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Catamaran', Helvetica, Arial, sans-serif;
+}
+
+.btn,
+.navbar-brand,
+.nav-link {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+.btn {
+    transition: color .3s;
+    border: solid 1px;
+    border-color: var(--project-grey);
+}
+
+.btn:hover {
+    background-color: var(--project-yellow);
+    border-color: var(--project-yellow);
+}
+
+.navbar-brand {
+    /* color: var(--project-yellow) !important; */
+    color: var(--project-yellow);
+}
+
+.nav-link {
+    color: rgb(150, 150, 150);
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    /* color: rgb(255, 255, 255) !important; */
+    color: rgb(255, 255, 255);
+}
+
+paragraphs,
+footer {
+    font-family: 'Mulish', Helvetica, Arial, sans-serif;
+}
+
+.top-content {
+    background: url("./img/bg-pattern.png"), linear-gradient(to right, var(--gradient-from), var(--gradient-to));
+    height: 100%;
+}
+
+.buzz,
+.friends {
+    background-color: var(--project-yellow);
+}
+
+.phone {
+    max-width: 30%;
+}
+
+.building {
+    position: relative;
+}
+
+.building__bg--img {
+    width: 100%;
+}
+
+.text-for-building {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.sli {
+    font-size: 5rem;
+    font-weight: 500;
+    background-image: linear-gradient(to right, var(--gradient-from), var(--gradient-to));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.heart {
+    color: var(--heart);
+    font-size: 1.2em;
+}
+
+.fa-4x {
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.fa-twitter {
+    color: var(--twitter-opaque);
+}
+
+.fa-twitter:hover {
+    color: var(--twitter);
+}
+
+.fa-facebook {
+    color: var(--facebook-opaque);
+}
+
+.fa-facebook:hover {
+    color: var(--facebook);
+}
+
+.fa-google-plus {
+    color: var(--heart-opaque);
+}
+
+.fa-google-plus:hover {
+    color: var(--heart);
+}
