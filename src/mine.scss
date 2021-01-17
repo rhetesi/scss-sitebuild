@@ -20,6 +20,18 @@
     --facebook-opaque: rgba(1, 101, 226, .9);
 }
 
+.d-flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
 headers,
 menus {
     font-family: 'Catamaran', Helvetica, Arial, sans-serif;
@@ -66,8 +78,8 @@ footer {
     font-family: 'Mulish', Helvetica, Arial, sans-serif;
 }
 
-.top-content {
-    background: url("./img/bg-pattern.png"), linear-gradient(to right, var(--gradient-from), var(--gradient-to));
+.newage {
+    background: url("/dist/assets/img/bg-pattern.png"), linear-gradient(to right, var(--gradient-from), var(--gradient-to));
     height: 100%;
 }
 
