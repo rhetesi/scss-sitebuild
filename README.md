@@ -1,15 +1,15 @@
 # scss-sitebuild
-SCSS sitebuilding project
+###SCSS sitebuilding project
 
 A letölthető fileok a leírás végén találhatóak! A desktop pdf fájl fel van címkézve a feladatok szövegével!
 
 Készítsd el a desktop.jpeg/mobile.jpeg képen látható responsive honlapot scss segítségével!
 CSS keretrendszer használata nem megendegett!
 
-Összesen 2 nézetünk van. 992px felett a desktop, alatta a mobil view érvényesüljön! A designhoz használt képeket megtalálod az img mappában. Használj egyéni betűtípusokat – Google fontsról le kell tölteni, és css-ben egyéni betűtípusokat kell létrehozni az alábbiak szerint:
+Összesen 2 nézetünk van. **992px** felett a *desktop*, alatta a *mobil* view érvényesüljön! A designhoz használt képeket megtalálod az img mappában. Használj egyéni betűtípusokat – Google fontsról le kell tölteni, és css-ben egyéni betűtípusokat kell létrehozni az alábbiak szerint:
 
 - [] A címsorok és menük betűtípusa: Catamaran, Helvetica, Arial, sans-serif
-- []  szövege, felső menü linkek: Lato, Helvetica, Arial, sans-serif
+- [] Gombok szövege, felső menü linkek: Lato, Helvetica, Arial, sans-serif
 - [] Bekezdések: Muli, Helvetica, Arial, sans-serif
 - [] A Footer egységesen: Muli, Helvetica, Arial, sans-serif
 
