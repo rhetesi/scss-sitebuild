@@ -1,0 +1,72 @@
+@use 'sass:list';
+
+// @function summarize-numbers($first: 0, $second: 0) {
+//     @if type-of($value: $first) !=number or type-of($value: $second) !=number {
+//         @error "Some of the parameters is not a number!";
+//     }
+
+//     @return $first+$second;
+// }
+
+@function summarize-numbers($numbers...) {
+    $sum: 0;
+
+    @for $i from 1 through list.length($numbers) {
+        $value: list.nth($numbers, $i);
+
+        @if type-of($value) !=number {
+            @error "The "+$i+". parameter is not a number.";
+        }
+
+        $sum: $sum+$value;
+    }
+
+    @return $sum;
+}
+
+//@debug summarize-numbers(2, 3);
+//@debug summarize-numbers();
+//@debug summarize-numbers(2, );
+//@debug summarize-numbers(, 3);
+//@debug summarize-numbers("sass", 2);
+//@debug summarize-numbers(2, "sass");
+// @debug summarize-numbers("sass", 1, 2, 3, 4);
+//@debug summarize-numbers("sass", 1, 2, 3, 4);
+//@debug summarize-numbers(1, 2, "sass", 3, 4);
+
+
+// @function summarize-numbers2($first: 0, $second: 0) {
+//     @if type-of($value: $first) !=number {
+//         $first: 0;
+//     }
+
+//     @if type-of($value: $second) !=number {
+//         $second: 0;
+//     }
+
+//     @return $first+$second;
+// }
+
+// @debug summarize-numbers2(2, "sass");
+// @debug summarize-numbers2("sass", 3);
+
+
+@function delete-list-element($list, $index) {
+    $new-list: ();
+    $length: list.length($list);
+
+    @if $index>$length {
+        $new-list: $list;
+        @error "Element not exists.";
+    }
+
+    @for $i from 1 through $length {
+        @if $i !=$index {
+            $new-list: list.append($new-list, list.nth($list, $i));
+        }
+    }
+
+    @return $new-list;
+}
+
+@debug delete-list-element(1 2 3 4, 2);

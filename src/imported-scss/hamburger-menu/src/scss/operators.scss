@@ -1,0 +1,78 @@
+@debug -----EQUALITY-----;
+@debug 1px==1;
+@debug 1px==1px;
+
+@debug 10px==1cm;
+@debug 48px==.5in;
+@debug 0.999999999999999999999==1;
+
+@debug Arial=='Arial';
+@debug Arial=="Arial";
+@debug 'Arial'=="Arial";
+@debug 'Arial' !="Arial";
+
+@debug true==true;
+@debug true !=true;
+@debug true !=false;
+
+
+@debug -----RELATIONS-----;
+
+@debug 100>50;
+@debug 10px<17px;
+@debug 96px>=1in;
+@debug 1ms <=10s;
+
+
+@debug -----MATH-----;
+
+@debug 10s+5s;
+@debug 10s - 50ms;
+@debug 10px * 2;
+@debug 10px * 2px;
+@debug 10px / 2;
+@debug ---A zárójelekkel tudom elkerülni hogy stringként kezelje az értékeket---;
+@debug (10px / 2);
+@debug ---mert ha mindkét értéknél van mértékegység az az osztás után el fog tűnni---;
+@debug (10px / 2px);
+@debug 10px % 2;
+
+
+
+@debug -----STRING------;
+
+@debug -----A debug output a stringeket idézőjelek nélkül mutatja-----;
+@debug "Times "+"New Roman";
+@debug -----Helyette használjunk egy szelektort p-----;
+
+.container {
+    font: 16px/16px "Times "+"New Roman", Times, serif;
+    content: track - list;
+
+    /* NE használd */
+    content: "track"- "list";
+
+    /* Interpolation */
+    content: #{"track" - "list"};
+    content: #{"track" + "list"};
+}
+
+
+$postfix: "--10";
+
+.col#{$postfix} {
+    color: red;
+}
+
+
+@debug -----BOOLEAN------;
+
+@debug not true;
+@debug true and false;
+@debug false and false;
+@debug false and true;
+@debug true and true;
+@debug true or true;
+@debug true or false;
+@debug false or true;
+@debug false or false;

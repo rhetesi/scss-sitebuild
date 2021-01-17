@@ -1,0 +1,32 @@
+/* MAP: get, has-key, keys, merge, remove, values */
+@use "sass:map";
+/* @use-zal importáljuk be, hogy NE globális eléréssel használjuk a MAP funkciót. */
+
+$colors: (success: green,
+    warning: orange,
+    danger: red,
+);
+
+$base-colors: (white: white,
+    black: black,
+);
+
+@debug map-get($map: $colors, $key: success);
+/* Globális használatnál map-get formában használjuk. */
+@debug map-get($colors, success);
+
+@debug map.get($colors, success);
+@debug map.has-key($colors, success);
+@debug map.keys($colors);
+@debug map.merge($colors, $base-colors);
+
+$all-colors: map.merge($colors, $base-colors);
+@debug $all-colors;
+
+@debug map.remove($colors, success);
+@debug $colors;
+@debug ---Ha módosítani is akarom az eredeti MAP-et---;
+$colors: map.remove($colors, success);
+@debug $colors;
+
+@debug map.values($colors);
