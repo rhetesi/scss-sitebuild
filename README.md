@@ -15,7 +15,7 @@ CSS keretrendszer használata nem megendegett!
 
 - [] A használni kívánt színeket mérd ki! Pontosan meg kell felelni a design színeinek! (color picker-t használd) A margin, padding értékeknek, betű méreteknek, sormagasságoknak stb. nem kell pixelpontosnak lennie de szemre lőjük be, ne térjen el nagyon a designon lévőtől! A feladatok leírását a desktop.pdf fájl tartalmazza megjegyzések formájában, de itt is olvashatod:
 
-Start Bootstrap szöveg (a bal felső sarokban): - Ha fölé visszük a kurzort, fehér lesz a betűszín.
+- [] Start Bootstrap szöveg (a bal felső sarokban): - Ha fölé visszük a kurzort, fehér lesz a betűszín.
 
 #### Felső navbar:
 
